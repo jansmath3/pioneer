@@ -1,0 +1,148 @@
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #636363;
+	font-size: 120%;
+	width: 1020px;
+	margin:0;
+} 
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration:none;
+	color: #636363;
+	height: 100%;
+	font-size: 18px;
+}
+
+a:link {
+	text-decoration: none; 
+	color: #636363;
+}
+a:visited {
+	text-decoration: none; 
+	color: #636363;
+}
+a:hover { 
+	text-decoration: none; 
+	color: #fde2a8; 
+} 
+
+#menucontainer {
+	position: fixed;
+	top: 150px;
+	width: 320px;
+	float: left;
+}
+
+#logo {
+	width:300px;
+	height:232px;
+	z-index: 2;
+	display: block;
+	position: relative;
+	background: url(assets/logo.png);
+}
+
+#menu {
+	padding-left: 95px;
+}
+
+#home {
+	height: 30px;
+	display: block;
+	position: relative;
+}
+
+#home:hover {
+    background-position: 0 -30px;
+}
+
+#do {
+	height: 30px;
+	display: block;
+	position: relative;
+}
+
+#do:hover {
+    background-position: 0 -30px;
+}
+
+#who {
+	height: 30px;
+	display: block;
+	position: relative;
+}
+
+#who:hover {
+    background-position: 0 -30px;
+}
+
+#contact {
+	height: 30px;
+	display: block;
+	position: relative;
+}
+
+#contact:hover {
+    background-position: 0 -30px;
+}
+
+#believe {
+	height: 30px;
+	display: block;
+	position: relative;
+}
+
+#believe:hover {
+    background-position: 0 -30px;
+}
+
+#content {
+	float: right;
+	background: #fff;
+	width: 700px;
+}
+
+#hometxt {
+	height: 278px;
+	top: 230px;
+	display: block;
+	position: relative;
+	padding: 0 85px 0 85px;
+	vertical-align: middle;
+	line-height: 170%;
+}
+
+#dotxt {
+	top: 230px;
+	display: block;
+	position: relative;
+	padding: 0 95px 0 95px;
+	line-height: 170%;
+}
+
+#whotxt {
+	display: block;
+	position: relative;
+	top: 30px;
+	padding: 0 90px 0 90px;
+}
+
+#contacttxt {
+	display: block;
+	position: relative;
+	top: 230px;
+	line-height: 32px;
+	text-align: center;
+	padding: 0 95px 0 95px;
+}
+
+#believetxt {
+	display: block;
+	position: relative;
+	top: 180px;
+	padding: 0 95px 0 95px;
+}
